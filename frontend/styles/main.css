@@ -1,0 +1,323 @@
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --main-text-color: #fff;
+    --second-text-color: #E6A24B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #4F4F4F;
+}
+
+header {
+    position: relative;
+    height: 300px;
+    width: 1495px;
+    background: url('../img/header.png') no-repeat top center fixed;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1475px;
+    background: rgba(34, 40, 49, 0.50);
+    padding: 10px;
+}
+
+.logotxt {
+    color: var(--second-text-color);
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.second-navbar {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 1495px;
+    background: rgba(0, 0, 0, 0.25);
+    padding-top: 40px;
+}
+
+.navtxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 250px;
+}
+
+.navtxt .active {
+    border-bottom: 2px solid var(--main-text-color);
+}
+
+.navtxt a {
+    margin: 0 10px;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navtxt .shoptxt {
+    color: var(--second-text-color);
+    text-shadow: 0px 0px 5px var(--second-text-color);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
+.endtxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 300px;
+}
+
+.endtxt a {
+    margin: 0 10px;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.endtxt .regcolor {
+    color: var(--second-text-color);
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-left: 600px;
+    padding-top: 90px;
+}
+
+.mctop {
+    margin-left: 150px;
+    margin-top: -130px;
+}
+
+.mctop .arrow {
+    width: 25px;
+    height: 25px;
+}
+
+.mctop .arrowbck {
+    display: flex;
+    width: 19px;
+    height: 20px;
+    padding: 12px 13px 13px 12px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.mctop .serverip {
+    color: var(--main-text-color);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+.mctop .onlinecount {
+    color: var(--second-text-color);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 50px;
+    margin-top: -1  0px;
+}
+
+.dctop {
+    margin-left: 1100px;
+    margin-top: -70px;
+}
+
+.dctop .discord {
+    width: 30px;
+    height: 30px;
+}
+
+.dctop .dcbck {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 12px 13px 13px 12px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.25);
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.dctop .dcserver {
+    color: var(--main-text-color);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: -20px;
+    margin-top: -40px;
+}
+
+.dctop .onlinecount {
+    color: var(--second-text-color);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+    margin-top: -1  0px;
+}
+
+.timer {
+    position: fixed;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    width: calc(100% - 100px);
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(230, 162, 75, 0.20) 0%, rgba(0, 0, 0, 0.05) 100%), rgba(0, 0, 0, 0.25);
+}
+
+.timer .hdtext {
+    color: var(--main-text-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 420px;
+    margin-top: 30px;
+}
+
+.angaben {
+    display: flex;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -470px;
+    margin-top: 90px;
+}
+
+.angaben > div {
+    margin-right: 30px; 
+}
+
+.countdown {
+    display: flex;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -440px;
+    margin-top: 150px;
+}
+
+.countdown > div {
+    margin-right: 90px; 
+}
+
+.doppelpunkte {
+    display: flex;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 155px;
+    margin-left: -420px;
+}
+
+.doppelpunkte > div {
+    margin-right: 110px; 
+}
+
+.bttxt {
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    margin-top: 270px;
+    margin-left: -500px;
+}
+
+.input .mail {
+    color: var(--main-text-color);
+    display: flex;
+    width: 190px;
+    height: 20px;
+    padding: 11px 300px 12px 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.25);
+    margin-top: 330px;
+    margin-left: -590px;
+}
+
+.input .sbbtn {
+    display: flex;
+    height: 40px;
+    padding: 9px 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--main-text-color);
+    margin-top: -43px;
+    margin-left: -70px;
+}
+
+.input .sbbtn:hover {
+    cursor: pointer;
+}

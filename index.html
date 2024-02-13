@@ -1,0 +1,84 @@
+    <!DOCTYPE html>
+    <html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AlphaLightning</title>
+        <link rel="stylesheet" href="/frontend/styles/main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap">
+        <link rel="icon" href="/frontend/img/logo.png">
+        <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <a href="" class="logotxt">AlphaLightning</a>
+
+                <nav class="navtxt">
+                    <a href="" class="active">Home</a>
+                    <a href="#news">News</a>
+                    <a href="#stats">Stats</a>
+                    <a href="#support">Support</a> 
+                    <a href="#bewerben">Bewerben</a>
+                    <a href="" class="shoptxt">Shop</a>
+                </nav>
+
+               <div class="endtxt">
+                    <a href="">Login</a>
+                    <a href="" class="regcolor">Register</a>
+                </div>
+            </div>
+
+            <div class="second-navbar"></div>
+
+            <div class="img"><img src="/frontend/img/logo.png" alt="logo"></div>
+
+            <div class="mctop">
+                <div class="arrowbck"><img src="/frontend/img/play.png" alt="arrow" class="arrow"></div>
+                <p class="serverip"><span class="ip">AlphaLightning.net</span></p>
+                <p class="onlinecount"><span data-playercounter-ip="AlphaLightning.net">0</span> Spieler Online</p>
+            </div>
+
+            <div class="dctop">
+                <div class="dcbck"><img src="/frontend/img/discord.png" alt="discord" class="discord"></div>
+                <p class="dcserver"><span class="ip">Discord Community</span></p>
+                <p class="onlinecount"><span data-playercounter-ip="AlphaLightning.net">0</span> Spieler Online</p>
+            </div>
+        </header>
+
+
+        <section class="timer">
+                <p class="hdtext">Nächstes AlphaLightning Event</p>
+                <div class="angaben">
+                    <div class="days">Tage</div>
+                    <div class="hours">Stunden</div>
+                    <div class="minutes">Minuten</div>
+                    <div class="seconds">Sekunden</div>
+                </div>
+
+                <div class="countdown">
+                    <div id="days" class="cdd">0</div>
+                    <div id="hours" class="cdh">0</div>
+                    <div id="minutes" class="cdm">0</div>
+                    <div id="seconds" class="cds">0</div>
+                </div>
+
+                <div class="doppelpunkte">
+                    <div class="dp1">:</div>
+                    <div class="dp2">:</div>
+                    <div class="dp3">:</div>
+                </div>
+
+                <div class="bttxt">
+                    <p>Bleibe auf dem Laufenden und verpasse nicht den Server-Release!</p>
+                    <p>Abonniere unseren Newsletter und sei als Erster dabei</p>
+                </div>
+
+                <div class="input">
+                    <input class="mail" type="text" placeholder="E-Mail">
+                    <button class="sbbtn">Submit</button>
+        </section>
+
+        <script src="/backend/main.js"></script>
+    </body>
+    </html>
